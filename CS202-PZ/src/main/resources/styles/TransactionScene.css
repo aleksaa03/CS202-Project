@@ -1,0 +1,63 @@
+.root {
+    -fx-background-color: #4d5f81;
+}
+
+.label {
+    -fx-text-fill: white;
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-background-color: #383838;
+    -fx-text-fill: white;
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: #575757;
+}
+
+.list-view {
+    -fx-background-color: #383838;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.list-view .list-cell {
+    -fx-background-color: #383838;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.list-view .list-cell:hover {
+    -fx-background-color: #575757;
+}
+
+.table-view {
+    -fx-background-color: #383838;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.table-view .column-header {
+    -fx-background-color: #383838;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell {
+    -fx-background-color: #383838;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #575757;
+}

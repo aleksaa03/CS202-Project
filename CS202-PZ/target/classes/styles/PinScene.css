@@ -1,0 +1,28 @@
+.root {
+    -fx-background-color: #4d5f81;
+}
+
+.label{
+    -fx-text-fill: white;
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+}
+
+.password-field {
+    -fx-background-color: #383838;
+    -fx-text-fill: white;
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+    -fx-prompt-text-fill: white;
+}
+
+.button {
+    -fx-background-color: #383838;
+    -fx-text-fill: white;
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: #575757;
+}
