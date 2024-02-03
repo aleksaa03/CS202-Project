@@ -19,24 +19,6 @@
     -fx-background-color: #575757;
 }
 
-.list-view {
-    -fx-background-color: #383838;
-    -fx-text-fill: white;
-    -fx-font-size: 20px;
-    -fx-font-weight: bold;
-}
-
-.list-view .list-cell {
-    -fx-background-color: #383838;
-    -fx-text-fill: white;
-    -fx-font-size: 20px;
-    -fx-font-weight: bold;
-}
-
-.list-view .list-cell:hover {
-    -fx-background-color: #575757;
-}
-
 .table-view {
     -fx-background-color: #383838;
     -fx-text-fill: white;
@@ -60,4 +42,15 @@
 
 .table-row-cell:hover {
     -fx-background-color: #575757;
+}
+
+.table-column .label {
+    -fx-font-size: 30px;
+    -fx-text-fill: white;
+}
+
+.table-cell {
+    -fx-font-size: 30px;
+    -fx-text-fill: white;
+    -fx-alignment: center;
 }

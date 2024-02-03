@@ -27,7 +27,7 @@ CREATE TABLE Account
 CREATE TABLE Transaction
 (
     Id           INT PRIMARY KEY AUTO_INCREMENT,
-    Date         DATETIME       NOT NULL,
+    Date         DATETIME       DEFAULT NOW() NOT NULL,
     Amount       DECIMAL(19, 2) NOT NULL,
     AmountBefore DECIMAL(19, 2) NOT NULL,
     Status       SMALLINT       NOT NULL,

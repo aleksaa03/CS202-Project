@@ -67,10 +67,9 @@ public class TransactionService implements ITransactionService {
 
         try (PreparedStatement statement = connection.prepareStatement(query)) {
             statement.setInt(1, transaction.getId());
-            statement.setString(2, transaction.getDate());
-            statement.setDouble(3, transaction.getAmount());
-            statement.setDouble(4, transaction.getAmountBefore());
-            statement.setInt(5, transaction.getStatus().ordinal());
+            statement.setDouble(2, transaction.getAmount());
+            statement.setDouble(3, transaction.getAmountBefore());
+            statement.setInt(4, transaction.getStatus().ordinal());
             statement.executeUpdate();
         } catch (SQLException e) {
             throw new RuntimeException(e);
